@@ -22,9 +22,10 @@ function number(value) {
 }
 
 
-function operator(operator) {
+function operator(value) {
 
-    operatorValue = operator;
+    operatorValue = value;
+    display.value = operatorValue;
 
 }
 
